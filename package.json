@@ -1,0 +1,17 @@
+{
+  "name": "YouTube-to-m4a",
+  "version": "1.0.0",
+  "description": "A Node.js web application that returns the M4A URL for a YouTube video.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
